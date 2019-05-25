@@ -9,7 +9,7 @@ module.exports = ( x,y,callback)=>{
         setTimeout(()=>
             callback(null,
             {
-                perimeter:() => (2*(x+y)),
+                perimeter:() => (2*(x+y)), // Due to the property of closure the 
                 area:() =>(x*y)
             }),
             2000);// 1st param is the function and the second for how much time it would be delayed
