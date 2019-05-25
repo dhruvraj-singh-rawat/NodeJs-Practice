@@ -1,0 +1,11 @@
+{
+  "name": "week1",
+  "version": "1.0.0",
+  "description": "node-examples",
+  "main": "",
+  "scripts": {
+    "start": "node index.js" 
+  },
+  "author": "",
+  "license": "ISC"
+}
